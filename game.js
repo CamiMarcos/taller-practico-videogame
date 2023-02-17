@@ -38,9 +38,9 @@ window.addEventListener('resize', setCanvasSize);
 
 function setCanvasSize() {
     if (window.innerHeight > window.innerWidth) {
-      canvasSize = window.innerWidth * 0.75;
+      canvasSize = window.innerWidth * 0.8;
     } else {
-      canvasSize = window.innerHeight * 0.75;
+      canvasSize = window.innerHeight * 0.8;
     };
     
       canvasSize = Number(canvasSize.toFixed(0));
