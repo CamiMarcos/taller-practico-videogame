@@ -56,6 +56,10 @@ p {
   width: 100%;
 }
 
+#reload {
+  margin: 10px;
+}
+
 @media (max-width: 600px) {
   button { margin-top: 20px; }
   #up, #down { margin-left: 100%; margin-right: 100%; }
